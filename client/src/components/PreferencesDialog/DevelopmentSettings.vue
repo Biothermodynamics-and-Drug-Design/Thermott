@@ -7,10 +7,6 @@
           <v-spacer />
         </v-card-title>
 
-        <v-card-text class="pa-2 pt-6 ma-2 pb-4 text-subtitle-1">
-          <v-switch v-model="plbdIntegration" inset label="PLBD integration" />
-          <span>In binding experiment tab shows PLBD button to annotate binding experiments</span>
-        </v-card-text>
 
       </v-card>
 
@@ -19,22 +15,16 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from "@vue/composition-api";
-import { SaveAppSetting_LocalStorage } from "@/utils/localStorage";
+import { defineComponent } from "@vue/composition-api";
+import {  } from "@/utils/localStorage";
 import { useAppSettings } from "@/store";
 
 export default defineComponent({
   setup() {
     const appSettings = useAppSettings();
-    const plbdIntegration = computed({
-      get: () => appSettings.DevelopmentSettings.PLBDIntegration,
-      set: (value: boolean) => {
-        appSettings.DevelopmentSettings.PLBDIntegration = value;
-        SaveAppSetting_LocalStorage();
-      },
-    });
 
-    return { plbdIntegration };
+
+    return { };
   },
 });
 </script>

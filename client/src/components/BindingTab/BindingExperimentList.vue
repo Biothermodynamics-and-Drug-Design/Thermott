@@ -14,7 +14,7 @@
         Binding experiments
 
         <v-spacer />
-        <PLBDIntegrationDialog v-if="appSettings.DevelopmentSettings.PLBDIntegration" :app-data="appData" />
+   
       </v-card-title>
       <v-divider />
 
@@ -65,11 +65,10 @@ import { MultiSelect } from "@/utils/utils";
 import BindingExperimentEditDialog from "../Generic/BindingExperimentEditDialog.vue";
 import { confirmDialog } from "@/components/Generic/confirmdialog";
 import { BindingExperiment } from "@/models";
-import PLBDIntegrationDialog from "@/components/DatabaseTab/components/PLBDIntegrationDialog.vue";
 import { useAppData, useAppSettings } from "@/store";
 
 export default defineComponent({
-  components: { BindingExperimentEditDialog, PLBDIntegrationDialog },
+  components: { BindingExperimentEditDialog },
   props: { selectedBindingExperiments: Array as PropType<BindingExperiment[]> },
   emits: ["update:selectedBindingExperiments"],
   setup(props, { emit }) {
@@ -84,7 +83,6 @@ export default defineComponent({
 
     const appSettings = useAppSettings();
 
-    const showPLBDIntegration = appSettings.ShowPLBDIntegration;
 
     const _selectedBindingExperiments = computed({
       get() {
@@ -125,7 +123,6 @@ export default defineComponent({
       _selectedBindingExperiments,
       deleteBindingExperiment,
       appData,
-      showPLBDIntegration,
     };
   },
 });

@@ -140,7 +140,6 @@ export async function InitLocalStorage() {
     appSettings.TabPreferences = localAppSettings?.TabPreferences || new TabPreferences();
     appSettings.DefaultModelParameters = localAppSettings?.DefaultModelParameters || new DefaultModelParameters();
     appSettings.AlwaysShowRawFileNames = localAppSettings?.AlwaysShowRawFileNames || false;
-    appSettings.ShowPLBDIntegration = localAppSettings?.ShowPLBDIntegration || false;
   } else {
     await loadDefaultBindingModelPresets();
 

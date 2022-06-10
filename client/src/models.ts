@@ -152,7 +152,6 @@ export class AppSettings {
   TabPreferences = new TabPreferences();
   DefaultModelParameters = new DefaultModelParameters();
   AlwaysShowRawFileNames = false;
-  ShowPLBDIntegration = false;
 }
 
 export class SessionInfo {
@@ -173,7 +172,6 @@ export interface BindingThermodynamicPreset extends BindingThermodynamicParams {
 export class DevelopmentSettings {
   ShowReportMatplotlibTest = false;
   DatabaseURL = "";
-  PLBDIntegration = false;
 }
 
 export class TabPreferences {
