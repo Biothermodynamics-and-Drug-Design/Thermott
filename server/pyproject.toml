@@ -16,7 +16,6 @@ uvicorn = "^0.17.6"
 python-multipart = "^0.0.5"
 lmfit = "^1.0.3"
 python-dateutil = "^2.8.2"
-starlette-exporter = "^0.13.0"
 
 [tool.poetry.dev-dependencies]
 mkdocs-material = "^8.3.3"
