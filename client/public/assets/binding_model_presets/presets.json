@@ -1,0 +1,107 @@
+[
+     {
+          "DuH_Tr": 602496,
+          "DuCp": 17000,
+          "DbH_T0": -42000,
+          "DbCp": -800    ,
+          "protein": "CA I",
+          "protein_aliases": ["CAI"]
+     },
+     {
+          "DuH_Tr": 690000,
+          "DuCp": 17000,
+          "DbH_T0": -42000,
+          "DbCp": -800    ,
+          "protein": "CA II",
+          "protein_aliases": ["CAII"]
+     },
+     {
+          "DuH_Tr": 480000,
+          "DuCp": 17000,
+          "DbH_T0": -42000,
+          "DbCp": -800    ,
+          "protein": "CA III",
+          "protein_aliases": ["CAIII"]
+     },
+     {
+          "DuH_Tr": 480000,
+          "DuCp": 17000,
+          "DbH_T0": -42000,
+          "DbCp": -800    ,
+          "protein": "CA IV",
+          "protein_aliases": ["CAIV"]
+     },
+     {
+          "DuH_Tr": 400000,
+          "DuCp": 17000,
+          "DbH_T0": -42000,
+          "DbCp": -800    ,
+          "protein": "CA VA",
+          "protein_aliases": ["CAVA"]
+     },
+     {
+          "DuH_Tr": 300000,
+          "DuCp": 17000,
+          "DbH_T0": -42000,
+          "DbCp": -800    ,
+          "protein": "CA VB",
+          "protein_aliases": ["CAVB"]
+     },
+     {
+          "DuH_Tr": 480000,
+          "DuCp": 17000,
+          "DbH_T0": -42000,
+          "DbCp": -800    ,
+          "protein": "CA VI",
+          "protein_aliases": ["CAVI"]
+     },
+     {
+          "DuH_Tr": 480000,
+          "DuCp": 17000,
+          "DbH_T0": -42000,
+          "DbCp": -800    ,
+          "protein": "CA VII",
+          "protein_aliases": ["CAVII"]
+     },
+     {
+          "DuH_Tr": 501600,
+          "DuCp": 17000,
+          "DbH_T0": -42000,
+          "DbCp": -800    ,
+          "protein": "CA IX",
+          "protein_aliases": ["CAIX"]
+     },
+     {
+          "DuH_Tr": 520000,
+          "DuCp": 17000,
+          "DbH_T0": -42000,
+          "DbCp": -800    ,
+          "protein": "CA XII",
+          "protein_aliases": ["CAXII"]
+     },
+     {
+          "DuH_Tr": 460000,
+          "DuCp": 17000,
+          "DbH_T0": -42000,
+          "DbCp": -800    ,
+          "protein": "CA XIII",
+          "protein_aliases": ["CAXIII"]
+          
+     },
+     {
+          "DuH_Tr": 450000,
+          "DuCp": 17000,
+          "DbH_T0": -42000,
+          "DbCp": -800    ,
+          "protein": "CA XIV",
+          "protein_aliases": ["CAXIV"]
+     },
+     {
+          "DuH_Tr": 420000,
+          "DuCp": 14700,
+          "DbH_T0": -42000,
+          "DbCp": -800,
+          "protein": "Hsp90N",
+          "protein_aliases": ["Hsp90aN", "Hsp90bN"]
+     }
+]

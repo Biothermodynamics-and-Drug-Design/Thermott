@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "thermott-server"
+version = "0.1.0"
+description = "Server for Thermott web app"
+authors = ["Marius Gedgaudas <gedgaudas.marius@gmail.com>"]
+license = "BSD 3-Clause"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+pandas = "^1.4.2"
+numpy = "^1.22.4"
+defusedxml = "^0.7.1"
+fastapi = "^0.78.0"
+scipy = "^1.8.1"
+uvicorn = "^0.17.6"
+python-multipart = "^0.0.5"
+lmfit = "^1.0.3"
+python-dateutil = "^2.8.2"
+starlette-exporter = "^0.13.0"
+
+[tool.poetry.dev-dependencies]
+mkdocs-material = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

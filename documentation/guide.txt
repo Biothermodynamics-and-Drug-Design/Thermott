@@ -1,0 +1,6 @@
+1. install MkDocs
+"pip install mkdocs"
+2. install mkdocs material theme
+"pip install mkdocs-material"
+3. test/run (in folder location)
+"mkdocs serve"

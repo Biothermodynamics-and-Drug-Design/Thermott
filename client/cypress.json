@@ -1,0 +1,13 @@
+{
+    "videoCompression": 0,
+    "baseUrl": "http://localhost:8080/",
+    "video": false,
+    "reporter": "junit",
+    "downloadsFolder":"cypress/downloads",
+    "trashAssetsBeforeRuns": true,
+    "reporterOptions": {
+        "mochaFile": "cypress/results/results-[hash].xml",
+        "toConsole": true,
+        "jenkinsMode": true
+      }
+}

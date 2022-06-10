@@ -1,0 +1,117 @@
+<!--Format Nº1-->
+<body>
+    <ul style="font-size: 1.2em">
+        <li><a href="/assets/sample_data/SampleMetaData1.csv" download>Click here</a> to download format Nº1 metadata example file</li>
+        <li><a href="/assets/sample_data/SampleData1_2.csv" download>Click here</a>  to download raw data file suitable for this metadata</li>
+
+        <br>
+
+        <li>This is the most simplified version of metadata formats</li>
+        <li>Here you do not have to specifity binding "experiment_id"</li>
+        <li>The tool will automaticaly determine your dilution number and assign wells to the unique binding experiments</li>
+
+        <ul>
+            <br>
+
+            <li>Metadata format Nº1</li>
+            <img class="mt-4" src="/assets/help/MetaData_1_2.png" style="max-width: 100%;
+                max-height: 100%;">
+
+            <ul>
+            <li>Each line represent a consecutive well</li>
+            <li>Binding experiment ordering is important</li>
+            <li>Each line should have comma separated:</li>
+                <ol>
+                    <li>protein name - e.g. <b>Carbonic anhydrase I</b></li>
+                    <li>protein concentration (μM) - e.g. <b>4</b></li>
+                    <li>ligand name - e.g. <b>GZ17-02</b></li>
+                    <li>ligand concentration (μM) - e.g. <b>1000</b></li>
+
+                </ol>
+
+
+            </ul>
+
+        </ul>
+
+      </ul>
+</body>
+
+
+<!--Format Nº2-->
+
+<body>
+    <ul style="font-size: 1.2em">
+        <li><a href="/assets/sample_data/SampleMetaData2.csv" download>Click here</a> to download format Nº2 metadata example file</li>
+        <li><a href="/assets/sample_data/SampleData1_2.csv" download>Click here</a> to download raw data file suitable for this metadata</li>
+        
+        <br>
+
+        <li>This is recommended metadata format for conventional binding experiments</li>
+
+        <ul>
+            <br>
+
+            <li>Metadata format Nº2</li>
+            <img class="mt-4" src="/assets/help/MetaData_2.png" style="max-width: 100%;
+             max-height: 100%;">
+            
+            <ul>
+                <li>Each line represent a consecutive well.</li>
+                <li>The first column's "experiment_id" value assigns a single well to the binding experiment</li>      
+                <li>Each line should have comma separated:</li>      
+                <ol>
+                    <li>experiment_id - numeric identifier of binding experiment e.g. <b>1</b></li>
+                    <li>experiment_name - binding experiment name e.g. <b>"Binding experiment 1"</b></li>
+                    <li>protein name - e.g. <b>Carbonic anhydrase I</b></li>
+                    <li>protein concentration (μM) - e.g. <b>4</b></li>
+                    <li>ligand name - e.g. <b>GZ17-02</b></li>
+                    <li>ligand concentration (μM) - e.g. <b>1000</b></li>
+                </ol>
+                
+            </ul>
+
+
+        </ul>
+
+      </ul>
+</body>
+
+<!--Format Nº3-->
+
+<body>
+    <ul style="font-size: 1.2em">
+        <li><a href="/assets/sample_data/SampleMetaData3.csv" download>Click here</a> to download format Nº3 metadata example file</li>
+        <li><a href="/assets/sample_data/SampleData3.csv" download>Click here</a> to download corresponding raw data for this metadata</li>
+
+        <br>
+
+        <li>This metadata format is suitable for binding experiments that possess the same control</li>
+        
+        <br>
+        <ul>
+            <li>Metadata format Nº3</li>
+            <img class="mt-4" src="/assets/help/MetaData_3.png" style="max-width: 100%;
+             max-height: 100%;">
+             
+            <ul>
+                <li>Each line represent a consecutive well.</li>
+                <li>The first column's "experiment_id" value assigns a single well to the binding experiment</li>
+                <li>The control wells must have <b>0</b> in the "experiment_id" column</li>      
+                <li>Each line should have comma separated:</li>      
+                <ol>
+                    <li>experiment_id - numeric identifier of binding experiment e.g. <b>1</b></li>
+                    <li>experiment_name - binding experiment name e.g. <b>"Binding experiment 1"</b></li>
+                    <li>protein name - e.g. <b>Hsp90aN</b></li>
+                    <li>protein concentration (μM) - e.g. <b>10</b></li>
+                    <li>ligand name - e.g. <b>IV11</b></li>
+                    <li>ligand concentration (μM) - e.g. <b>200</b></li>
+                </ol>
+                
+            </ul>
+
+
+        </ul>
+
+      </ul>
+</body>

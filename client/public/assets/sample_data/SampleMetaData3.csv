@@ -1,0 +1,34 @@
+experiment_id,experiment_name,protein,protein_concentration,ligand,ligand_concentration
+1,Binding experiment 1,Hsp90aN,10,IV11,200
+1,Binding experiment 1,Hsp90aN,10,IV11,100
+1,Binding experiment 1,Hsp90aN,10,IV11,50
+1,Binding experiment 1,Hsp90aN,10,IV11,25
+2,Binding experiment 2,Hsp90aN,10,IV12,200
+2,Binding experiment 2,Hsp90aN,10,IV12,100
+2,Binding experiment 2,Hsp90aN,10,IV12,50
+2,Binding experiment 2,Hsp90aN,10,IV12,25
+3,Binding experiment 3,Hsp90aN,10,IV13,200
+3,Binding experiment 3,Hsp90aN,10,IV13,100
+3,Binding experiment 3,Hsp90aN,10,IV13,50
+3,Binding experiment 3,Hsp90aN,10,IV13,25
+4,Binding experiment 4,Hsp90aN,10,IV14,200
+4,Binding experiment 4,Hsp90aN,10,IV14,100
+4,Binding experiment 4,Hsp90aN,10,IV14,50
+4,Binding experiment 4,Hsp90aN,10,IV14,25
+5,Binding experiment 5,Hsp90aN,10,IV15,200
+5,Binding experiment 5,Hsp90aN,10,IV15,100
+5,Binding experiment 5,Hsp90aN,10,IV15,50
+5,Binding experiment 5,Hsp90aN,10,IV15,25
+6,Binding experiment 6,Hsp90aN,10,IV16,200
+6,Binding experiment 6,Hsp90aN,10,IV16,100
+6,Binding experiment 6,Hsp90aN,10,IV16,50
+6,Binding experiment 6,Hsp90aN,10,IV16,25
+7,Binding experiment 7,Hsp90aN,10,ICPD26,200
+7,Binding experiment 7,Hsp90aN,10,ICPD26,100
+7,Binding experiment 7,Hsp90aN,10,ICPD26,50
+7,Binding experiment 7,Hsp90aN,10,ICPD26,25
+0,control,Hsp90aN,10,control,0
+0,control,Hsp90aN,10,control,0
+0,control,Hsp90aN,10,control,0
+0,control,Hsp90aN,10,control,0
+

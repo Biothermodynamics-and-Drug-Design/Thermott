@@ -1,0 +1,98 @@
+{
+  "name": "Thermott",
+  "version": "0.1.14",
+  "private": true,
+  "scripts": {
+    "serve": "vite dev",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "buildzipwin": "vue-cli-service build & wsl tar cvf dist.tar dist/",
+    "buildzipwin2": "vue-cli-service build & wsl tar -zcvf dist.tar dist/"
+  },
+  "dependencies": {
+    "@mdi/js": "^5.5.55",
+    "@types/chart.js": "^2.9.34",
+    "@types/plotly.js": "^1.54.21",
+    "@types/vuedraggable": "^2.23.1",
+    "@vue/composition-api": "^1.1.4",
+    "@web-types/vuetify": "^2.0.15-1",
+    "browserlist": "^1.0.1",
+    "chart.js": "^3.6.0",
+    "css-loader": "^3.6.0",
+    "date-fns": "^2.17.0",
+    "jspreadsheet-ce": "^4.9.5",
+    "localforage": "^1.10.0",
+    "moment": "^2.28.0",
+    "papaparse": "^5.3.1",
+    "regenerator-runtime": "^0.13.7",
+    "rollup-plugin-analyzer": "^4.0.0",
+    "runtime": "^0.14.1",
+    "style-loader": "^1.2.1",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2",
+    "tar": "^6.0.5",
+    "tslib": "^2.0.1",
+    "uuid": "^8.3.2",
+    "vite": "^2.7.13",
+    "vite-plugin-vue2": "^1.9.3",
+    "vue": "2.6.12",
+    "vue-class-component": "^7.2.5",
+    "vue-easy-dnd": "^1.8.4",
+    "vue-property-decorator": "^8.5.1",
+    "vue-router": "^3.4.3",
+    "vue-template-compiler": "2.6.12",
+    "vuetify": "^2.5.8",
+    "webpack": "^4.44.2"
+  },
+  "devDependencies": {
+    "@types/jspreadsheet-ce": "^4.7.2",
+    "@types/node": "^14.14.21",
+    "@types/papaparse": "^5.3.1",
+    "@types/uuid": "^8.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "5.11.0",
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-plugin-eslint": "~4.5.15",
+    "@vue/cli-plugin-router": "~4.5.15",
+    "@vue/cli-plugin-typescript": "~4.5.15",
+    "@vue/cli-plugin-unit-jest": "4.5.15",
+    "@vue/cli-plugin-vuex": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "@vue/composition-api": "~1.4.6",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "@vue/test-utils": "1.3.0",
+    "compression-webpack-plugin": "^6.0.1",
+    "eslint": "7.32.0",
+    "eslint-plugin-vue": "8.4.0",
+    "material-design-icons-iconfont": "^6.4.2",
+    "sass": "1.32.0",
+    "typescript": "~4.4.0",
+    "unplugin-vue-components": "^0.17.11",
+    "vue-cli-plugin-vuetify": "^2.4.2",
+    "vue-template-compiler": "2.6.12",
+    "vue-tsc": "^0.32.0",
+    "webpack-bundle-analyzer": "^3.8.0",
+    "worker-loader": "^3.0.8"
+  },
+  "eslintIgnore": "*",
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/typescript/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

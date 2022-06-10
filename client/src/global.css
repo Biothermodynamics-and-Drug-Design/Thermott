@@ -1,0 +1,37 @@
+.v-text-field.custom_small >>> input {
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.v-input.custom_small {
+    width: 9%;
+}
+
+.v-input.narrow {
+    width: 9%;
+}
+
+.small_checkbox >>> label {
+    font-size: 5px
+}
+
+.v-label.small_checkbox {
+    font-size: 5px
+}
+
+.rounded-box {
+    border-radius: 5px;
+    border: 2px solid #dbdbdb;
+}
+
+.inputHint {
+    display: inline;
+    border: 1px solid gray;
+    border: none;
+    font-size: 0.9em;
+    line-height: 1em !important;
+    background: rgb(187, 187, 187);
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+  }

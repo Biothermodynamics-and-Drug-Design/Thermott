@@ -1,0 +1,9 @@
+# Introduction
+
+Fluorescent thermal shift assay (fluorescence-based thermal shift assay, FTSA, also known as TSA, differential scanning fluorimetry (DSF) or ThermoFluor) is a typically easily accessible high throughput method, mainly used to characterize protein stability and affinity for ligands (<i>K</i><sub>b</sub> or <i>K</i><sub>d</sub>). TSA (FTSA) is attractive mainly because of low sample consumption and for allowing to run up to several hundreds of samples simultaneously.
+
+<em>Thermott</em> is a convenient tool for FTSA data processing. It helps to determine the melting temperature of the protein (<i>T</i><sub>m</sub>), which describes protein stability, and ligand affinity (<i>K</i><sub>b</sub>) in a series of experiments from the raw FTSA data. For notes on running an experiment, please refer to [this section](04dataacquisition.md#Running-an-experiment).
+
+FTSA relies on fluorescence readings during the thermal denaturation of the protein. As the protein unfolds due to increasing temperature, we can observe the change in fluorescence. This fluorescence can originate from either innate tryptophan or a solvatochromic dye, which changes its fluorescence intensity upon binding to the unfolded protein regions. Given the experimental system, similar experiments can be carried out by measuring other signals besides fluorescence. As long as the signal corresponds to temperature-induced protein property changes, <em>Thermott</em> can be successfully used to interpret the data. 
+
+<em>Thermott</em> was developed by a group of scientists at the Department of Biothermodynamics and Drug Design, Institute of Biotechnology, Life Sciences Center, Vilnius University, who routinely employ FTSA and need an easily accessible, non-commercial, scientific tool for fast and convenient FTSA data processing. 

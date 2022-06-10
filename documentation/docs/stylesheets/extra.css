@@ -1,0 +1,28 @@
+.md-header-nav__button.md-logo img, .md-header-nav__button.md-logo svg{
+    width:6em;
+    height:3em;
+}
+
+.md-header-nav__button.md-logo{
+    margin: 0;
+}
+
+footer{
+    display:none;
+}
+
+.md-typeset div.arithmatex{
+    overflow-x: auto;
+}
+
+.md-typeset div.arithmatex >* {
+    overflow-y: hidden !important;
+}
+
+.md-nav__title {
+    display: none;
+}
+
+.md-button {
+    padding: 0.3em 0.1em 0.3em 0.5em !important;
+}

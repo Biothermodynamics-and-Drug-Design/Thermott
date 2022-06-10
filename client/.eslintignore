@@ -1,0 +1,7 @@
+**/__tests__/**/*
+vue.config.js
+node_modules/
+**/node_modules/**
+**/cypress/**
+**/plotly.min.js
+**/plotly.js"
