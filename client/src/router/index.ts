@@ -20,11 +20,6 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "home" */ "../components/Generic/ParameterPrediction.vue"),
   },
   {
-    path: "/Database",
-    name: "Database",
-    component: () => import(/* webpackChunkName: "database" */ "../components/DatabaseTab/DatabaseTab.vue"),
-  },
-  {
     path: "/DevSettings",
     name: "Developer Settings",
     component: () => import(/* webpackChunkName: "database" */ "../components/PreferencesDialog/DevelopmentSettings.vue"),
